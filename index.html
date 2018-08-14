@@ -8,7 +8,7 @@
                 {
                        var i ;
                        var numero ;
-                       for(i=0; i<12; i++)
+                       for(i=0; i<15; i++)
                        {   
                     ArregloImagenes[i]="punto.jpg";
                        }
@@ -16,14 +16,14 @@
                        for(i=0;i<10;i++)
                        {
                         do
-                           numero=Math.floor(MAth.random()*119)
-                           while (ArregloImagenes[ numero ]!="punto.jpg")
+                           numero=Math.floor(MAth.random()*119);
+                           while (ArregloImagenes[ numero ]!="punto.jpg");
                            ArregloImagenes[ numero]="plop.jpg";
                        }
                       
                 }
 
-        function plop_InicializarIU()
+        function plop_InicializarIU();
         {
 
 var i;
@@ -34,7 +34,7 @@ for (i=0;i<119 ; i++)
 
 
         }
-                function img_click (imagen)     
+                function img_click (imagen);    
                 {
                     imagen.src= ArregloImagenes[imagen.id];
                     if(ArregloImagenes[imagen.id]=="plop.jpg")
@@ -209,6 +209,7 @@ for (i=0;i<119 ; i++)
 </tr>  
 <tr>
 
+    <td> <img src="frente.jpg"id="img104"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img105"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img106"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img107"onclick="img_click(this)"></td>
@@ -216,10 +217,10 @@ for (i=0;i<119 ; i++)
     <td> <img src="frente.jpg"id="img109"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img110"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img111"onclick="img_click(this)"></td>
-    <td> <img src="frente.jpg"id="img112"onclick="img_click(this)"></td>
 </tr>  
 <tr>
 
+    <td> <img src="frente.jpg"id="img112"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img113"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img114"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img115"onclick="img_click(this)"></td>
@@ -227,7 +228,6 @@ for (i=0;i<119 ; i++)
     <td> <img src="frente.jpg"id="img117"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img118"onclick="img_click(this)"></td>
     <td> <img src="frente.jpg"id="img119"onclick="img_click(this)"></td>
-    <td> <img src="frente.jpg"id="img120"onclick="img_click(this)"></td>
 </tr>  
  
  
