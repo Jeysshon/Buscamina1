@@ -1,0 +1,243 @@
+<html>
+
+     <head>
+            <script type="text/javascript">
+                var ArregloImagenes= new Array();
+
+                function BombaInit()
+                {
+                       var i ;
+                       var numero ;
+                       for(i=0; i<12; i++)
+                       {   
+                    ArregloImagenes[i]="punto.jpg";
+                       }
+
+                       for(i=0;i<10;i++)
+                       {
+                        do
+                           numero=Math.floor(MAth.random()*119)
+                           while (ArregloImagenes[ numero ]!="punto.jpg")
+                           ArregloImagenes[ numero]="plop.jpg";
+                       }
+                      
+                }
+
+        function plop_InicializarIU()
+        {
+
+var i;
+for (i=0;i<119 ; i++)
+{
+    documento.getElementById("i").src="frente.jpg ";
+}
+
+
+        }
+                function img_click (imagen)     
+                {
+                    imagen.src= ArregloImagenes[imagen.id];
+                    if(ArregloImagenes[imagen.id]=="plop.jpg")
+                    {
+
+                    
+                    alert("Perdedor");
+                    BombaInit();
+                    plop_InicializarIU();
+
+                  
+
+                    }
+                     else
+                     {/* no se hace nada*/}
+                }
+                
+             </script>
+
+    </head> 
+
+
+
+
+    <body onload="BombaInit()"> 
+
+        <table> 
+
+                   <tr>
+
+                        <td> <img src="frente.jpg"id="img0"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img1"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img2"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img3"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img4"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img5"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img6"onclick="img_click(this)"></td>
+                        <td> <img src="frente.jpg"id="img7"onclick="img_click(this)"></td>
+                   </tr>  
+                   <tr>
+
+                    <td> <img src="frente.jpg"id="img8"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img9"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img10"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img11"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img12"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img13"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img14"onclick="img_click(this)"></td>
+                    <td> <img src="frente.jpg"id="img15"onclick="img_click(this)"></td>
+               </tr>  
+               <tr>
+
+                <td> <img src="frente.jpg"id="img16"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img17"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img18"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img19"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img20"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img21"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img22"onclick="img_click(this)"></td>
+                <td> <img src="frente.jpg"id="img23"onclick="img_click(this)"></td>
+           </tr>  
+           <tr>
+
+            <td> <img src="frente.jpg"id="img24"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img25"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img26"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img27"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img28"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img29"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img30"onclick="img_click(this)"></td>
+            <td> <img src="frente.jpg"id="img31"onclick="img_click(this)"></td>
+       </tr>  
+       <tr>
+
+        <td> <img src="frente.jpg"id="img32"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img33"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img34"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img35"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img36"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img37"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img38"onclick="img_click(this)"></td>
+        <td> <img src="frente.jpg"id="img39"onclick="img_click(this)"></td>
+   </tr>  
+   <tr>
+
+    <td> <img src="frente.jpg"id="img40"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img41"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img42"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img43"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img44"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img45"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img46"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img47"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img48"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img49"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img50"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img51"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img52"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img53"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img54"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img55"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img56"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img57"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img58"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img59"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img60"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img61"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img62"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img63"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img64"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img65"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img66"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img67"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img68"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img69"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img70"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img71"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img72"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img73"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img74"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img75"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img76"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img77"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img78"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img79"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img80"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img81"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img82"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img83"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img84"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img85"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img86"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img87"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img88"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img89"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img90"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img91"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img92"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img93"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img94"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img95"onclick="img_click(this)"></td>
+</tr>  
+  
+<tr>
+
+    <td> <img src="frente.jpg"id="img96"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img97"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img98"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img99"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img100"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img101"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img102"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img103"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img105"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img106"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img107"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img108"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img109"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img110"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img111"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img112"onclick="img_click(this)"></td>
+</tr>  
+<tr>
+
+    <td> <img src="frente.jpg"id="img113"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img114"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img115"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img116"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img117"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img118"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img119"onclick="img_click(this)"></td>
+    <td> <img src="frente.jpg"id="img120"onclick="img_click(this)"></td>
+</tr>  
+ 
+ 
+ 
+ 
+        </table>
+
+     </body>
+
+
+
+
+</html>
